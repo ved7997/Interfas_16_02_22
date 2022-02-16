@@ -14,6 +14,7 @@ public class Main {
         car2.setModelName("car2");
         car.setWheelsCount(4);
         car2.setWheelsCount(4);
+        System.out.println();
 
         Truck truck = new Truck();
         Truck truck2 = new Truck();
