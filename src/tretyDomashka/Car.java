@@ -1,6 +1,6 @@
 package tretyDomashka;
 
-public class Car extends ServiceStation{
+public class Car extends ServiceStation implements Tire, Engine{
     private  String modelName;
     private  int wheelsCount;
 
@@ -11,16 +11,6 @@ public class Car extends ServiceStation{
 
     public Car(){
 
-    }
-
-
-
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
     }
 
     public void setModelName(String modelName) {

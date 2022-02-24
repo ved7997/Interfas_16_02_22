@@ -1,9 +1,8 @@
 package tretyDomashka;
 
-public class Bicycle extends ServiceStation {
+public class Bicycle extends ServiceStation implements Tire {
     private  String modelName;
     private  int wheelsCount;
-
 
     public Bicycle(String modelName, int wheelsCount) {
         this.modelName = modelName;
@@ -12,10 +11,6 @@ public class Bicycle extends ServiceStation {
 
     public Bicycle(){
 
-    }
-
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
     }
 
     public void setModelName(String modelName) {
